@@ -42,12 +42,6 @@ npm or yarn
 FFmpeg (for audio processing)
 Installation
 
-# Clone the repository
-git clone https://github.com/JeenaWeberLangstaff/AnimalProtection.git
-
-# Navigate to project directory
-cd AnimalProtection
-
 # Install dependencies
 npm install
 
