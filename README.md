@@ -1,11 +1,16 @@
-# Running your impulse using WebAssembly in the browser
+# React + Vite
 
-For more information see the documentation at https://docs.edgeimpulse.com/docs/through-webassembly-browser
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-To start, open a terminal or command prompt and run:
+Currently, two official plugins are available:
 
-```
-$ python3 server.py
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Then open http://localhost:8082 in a browser to see the application.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
